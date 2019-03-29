@@ -6635,12 +6635,12 @@ Power consumed by backplane : 40 Watts
 
 Mod Ports Card Type                              Model              Serial No.
 ---+-----+--------------------------------------+------------------+-----------
- 1    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    CAT2015L0W5 
- 2    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    CAT2015L0WK 
- 3     8  Sup 8-E 10GE (SFP+), 1000BaseX (SFP)   WS-X45-SUP8-E      CAT2014L1WH 
- 4     8  Sup 8-E 10GE (SFP+), 1000BaseX (SFP)   WS-X45-SUP8-E      CAT2014L21Z 
- 5    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    CAT2010L7Y2 
- 6    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    CAT1949LBPJ 
+ 1    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    <removed> 
+ 2    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    <removed> 
+ 3     8  Sup 8-E 10GE (SFP+), 1000BaseX (SFP)   WS-X45-SUP8-E      <removed> 
+ 4     8  Sup 8-E 10GE (SFP+), 1000BaseX (SFP)   WS-X45-SUP8-E      <removed> 
+ 5    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    <removed> 
+ 6    48  10/100/1000BaseT UPOE E Series         WS-X4748-UPOE+E    <removed> 
 
  M MAC addresses                    Hw  Fw           Sw               Status
 --+--------------------------------+---+------------+----------------+---------
