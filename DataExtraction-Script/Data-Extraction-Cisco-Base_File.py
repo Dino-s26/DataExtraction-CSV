@@ -34,6 +34,7 @@ for file in source_file:
  cpu_ios_xe = re.findall('Core \d*\:.CPU.utilization.for.five.seconds\:.\d*\%\;.one.minute\:.\d*\%\;..five.minutes\:.\d*\%', line_re)
  cpu_ios = re.findall('CPU.utilization.for.five.seconds\:.\d*\%.\d*\%\;.one.minute\:.\d*\%\;.five.minutes\:.\d*\%', line_re)
  process_memory = re.findall('Processor.Pool.Total:..\d*.Used:..\d*.Free:..\d*', line_re)
+ process_memory_xe = re.findall('System.memory..:.\d*K.total,.\d*K.used,.\d*K.free,.\d*K.kernel.reserved', line_re)
  
  ## For Debug Purpose please uncomment below line \/,
  # and comment the Extract Data line code to prevent from save unnecessary data, add more 
@@ -50,3 +51,4 @@ for file in source_file:
       wrm.writerow(cpu_ios_xe)
       wrm.writerow(cpu_ios)
       wrm.writerow(process_memory)
+      wrm.writerow(process_memory_xe)
