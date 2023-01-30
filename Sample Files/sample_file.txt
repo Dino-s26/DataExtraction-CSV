@@ -54,7 +54,7 @@ License Information for 'WS-X45-SUP8-E'
     Next reboot license Level: ipbase
 
 cisco WS-C4507R+E (P5040) processor (revision 2) with 4194304K bytes of physical memory.
-Processor board ID FXS2002Q4RU
+Processor board ID <redacted>
 P5040 CPU at 2.2GHz, Supervisor 8-E
 Last reset from Reload
 4 Virtual Ethernet interfaces
@@ -1524,9 +1524,8 @@ GigabitEthernet6/47    unassigned      YES unset  up                    up
 GigabitEthernet6/48    unassigned      YES unset  up                    up      
 Port-channel7          unassigned      YES unset  up                    up      
 Vlan1                  unassigned      YES unset  administratively down down    
-Vlan440                10.5.40.4       YES NVRAM  up                    up      
-Vlan441                10.5.42.4       YES NVRAM  up                    up      
-Vlan1036               192.168.134.32  YES NVRAM  up                    up      
+<redacted>
+
 sample-sw#
 show run
 Building configuration...
@@ -2570,7 +2569,7 @@ interface GigabitEthernet1/35
  switchport mode access
  switchport voice vlan <removed>
  ip flow monitor FLOW_MONITOR input
- ip access-group Auth-Default-ACL-7-1 in
+ ip access-group <Redacted> in
  no logging event link-status
  authentication event fail action next-method
  authentication event server dead action reinitialize vlan <removed>
@@ -6644,12 +6643,12 @@ Mod Ports Card Type                              Model              Serial No.
 
  M MAC addresses                    Hw  Fw           Sw               Status
 --+--------------------------------+---+------------+----------------+---------
- 1 18e7.28c7.9364 to 18e7.28c7.9393 1.1                               Ok       
- 2 18e7.28c7.9304 to 18e7.28c7.9333 1.1                               Ok       
- 3 00fe.c817.0cc0 to 00fe.c817.0cc7 1.3 15.1(1r)SG6  03.06.06.E       Ok       
- 4 00fe.c817.0cc8 to 00fe.c817.0ccf 1.3 15.1(1r)SG6  03.06.06.E       Ok       
- 5 00c8.8bbb.d9f0 to 00c8.8bbb.da1f 1.1                               Ok       
- 6 cc46.d633.82f0 to cc46.d633.831f 1.1                               Ok       
+ 1 <redacted> to <redacted> 1.1                               Ok       
+ 2 <redacted> to <redacted> 1.1                               Ok       
+ 3 <redacted> to <redacted> 1.3 15.1(1r)SG6  03.06.06.E       Ok       
+ 4 <redacted> to <redacted> 1.3 15.1(1r)SG6  03.06.06.E       Ok       
+ 5 <redacted> to <redacted> 1.1                               Ok       
+ 6 <redacted> to <redacted> 1.1                               Ok       
 
 Mod  Redundancy role     Operating mode      Redundancy status
 ----+-------------------+-------------------+----------------------------------
